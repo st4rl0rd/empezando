@@ -14,20 +14,26 @@ export class MainPageComponent  {
     console.log(event);
   }
   */
+  /*
   get personajes(): Personaje[] {
     return this.dbzService.personajes;
   }
+  */
+
   nuevo: Personaje = {
     nombre: '',
     poder: 0
   }
 
+  /*
   agregarNuevoPersonaje( argumento: Personaje){
     
     this.personajes.push(argumento);
   }
+  */
 
+  /*
   constructor( private dbzService: DbzService){
-    
   }
+  */
 }
